@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bridgeclub Cadier en Keer</title>
+    <!--<link rel="icon" type="image/x-icon" href="logo.png"> PNG mag gewoon!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+       <style>
+                *{
+                  color: black;
+                }
+		.title-bar {
+			background-color: #370000;
+			color: white;
+			padding: 1rem;
+			font-size: 16px;
+			/*border-radius: 10px;*/
+			font-family: 'Roboto', sans-serif;
+			top: 0;
+			border-radius: 0px 0px 10px 10px;
+			max-width: calc(100vw - 2rem);
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      left: 0;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+		}
+    .downloadbutton {
+      width: 150px;
+			transition: all 0.3s;
+		}
+    .downloadbutton:hover {
+      
+      transform: matrix(1.2, 0, 0, 1.2, 14, 3.5);
+		}
+a:link {
+  color: #84c284;
+  background-color: transparent;
+  text-decoration: none;
+}
+a {
+  color: #84c284;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #84c284;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #84c284;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in-animation 0.5s ease-in forwards;
+  
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-out {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out.is-fading {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.fade-out.is-fading .fade-out-content {
+  animation: fade-in-animation 0.5s ease-in-out forwards;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: Verdana
+}
+h2 {
+  font-size: 1rem;
+  font-family: Helvetica
+}
+
+html {
+  font-size: calc(2em - 1vw);
+}
+
+</style> 
+	   <style>
+       img {
+        width: 10rem;
+        height: auto;
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      
+
+    </style>
+  </head>
+  <body style="background-color:#FFFFFF;">
+    
+    <div class="title-bar">Bridgeclub Cadier en Keer<br><a href="/Bridgeclub/index.html" class="fade-out-link">Home</a> | <a href="/Bridgeclub/informatie.html" class="fade-out-link">Informatie</a> | <a href="/Bridgeclub/contact.html" class="fade-out-link">Contact</a></div>
+    <div class="fade-out"><div class="fade-in">
+      <br><br><br><H1 style="font-family: Roboto", sans-serif;><p>Contact</p></H1>
+
+      <H2 style="font-family: Roboto", sans-serif;><p>
+
+      <b>Email</b><br>
+      deholweg@hetnet.nl<br><br>
+
+      <b>Telefoon</b><br>
+      0650 487517<br><br>
+
+      <b>Bestuur</b><br>
+      Wim van Baalen<br>
+John Hufkens<br>
+Djoeke Joskin-Vonk<br><br>
+        
+      </H2>
+	    
+	<br><br>
+      <img src="https://rowanlikesdonuts.github.io/Bridgeclub/kaarten.jpeg"></a>
+
+      <script src="Fade-out.js"></script> 
+  </body>
+</html>
